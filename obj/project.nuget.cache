@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sC9mStWBgVI=",
+  "dgSpecHash": "tsnAxsbZ2gw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\eniste\\Drive'ım\\ÇALIŞMALAR\\core7proje\\core7proje.csproj",
+  "projectFilePath": "C:\\Users\\eniste\\Drive'ım\\ÇALIŞMALAR\\x\\core7proje.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eniste\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.19\\microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
     "C:\\Users\\eniste\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.19\\microsoft.windowsdesktop.app.ref.7.0.19.nupkg.sha512",

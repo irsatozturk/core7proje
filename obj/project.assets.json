@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eniste\\Drive'ım\\ÇALIŞMALAR\\core7proje\\core7proje.csproj",
+      "projectUniqueName": "C:\\Users\\eniste\\Drive'ım\\ÇALIŞMALAR\\x\\core7proje.csproj",
       "projectName": "core7proje",
-      "projectPath": "C:\\Users\\eniste\\Drive'ım\\ÇALIŞMALAR\\core7proje\\core7proje.csproj",
+      "projectPath": "C:\\Users\\eniste\\Drive'ım\\ÇALIŞMALAR\\x\\core7proje.csproj",
       "packagesPath": "C:\\Users\\eniste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eniste\\Drive'ım\\ÇALIŞMALAR\\core7proje\\obj\\",
+      "outputPath": "C:\\Users\\eniste\\Drive'ım\\ÇALIŞMALAR\\x\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eniste\\AppData\\Roaming\\NuGet\\NuGet.Config",
