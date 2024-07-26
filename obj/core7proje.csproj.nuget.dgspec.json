@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Drive\\ÇALIŞMALAR\\core7proje\\core7proje.csproj": {}
+    "C:\\Users\\eniste\\Desktop\\core7proje\\core7proje.csproj": {}
   },
   "projects": {
-    "D:\\Drive\\ÇALIŞMALAR\\core7proje\\core7proje.csproj": {
+    "C:\\Users\\eniste\\Desktop\\core7proje\\core7proje.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Drive\\ÇALIŞMALAR\\core7proje\\core7proje.csproj",
+        "projectUniqueName": "C:\\Users\\eniste\\Desktop\\core7proje\\core7proje.csproj",
         "projectName": "core7proje",
-        "projectPath": "D:\\Drive\\ÇALIŞMALAR\\core7proje\\core7proje.csproj",
-        "packagesPath": "C:\\Users\\Liya\\.nuget\\packages\\",
-        "outputPath": "D:\\Drive\\ÇALIŞMALAR\\core7proje\\obj\\",
+        "projectPath": "C:\\Users\\eniste\\Desktop\\core7proje\\core7proje.csproj",
+        "packagesPath": "C:\\Users\\eniste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eniste\\Desktop\\core7proje\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Liya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eniste\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,6 +56,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.19, 7.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.19, 7.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.19, 7.0.19]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.19, 7.0.19]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -64,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
