@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\eniste\\.nuget\\packages\\": {}
+    "C:\\Users\\Liya\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eniste\\Drive'ım\\ÇALIŞMALAR\\x\\core7proje.csproj",
+      "projectUniqueName": "D:\\Drive\\ÇALIŞMALAR\\core7proje\\core7proje.csproj",
       "projectName": "core7proje",
-      "projectPath": "C:\\Users\\eniste\\Drive'ım\\ÇALIŞMALAR\\x\\core7proje.csproj",
-      "packagesPath": "C:\\Users\\eniste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eniste\\Drive'ım\\ÇALIŞMALAR\\x\\obj\\",
+      "projectPath": "D:\\Drive\\ÇALIŞMALAR\\core7proje\\core7proje.csproj",
+      "packagesPath": "C:\\Users\\Liya\\.nuget\\packages\\",
+      "outputPath": "D:\\Drive\\ÇALIŞMALAR\\core7proje\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\eniste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Liya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -62,24 +62,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.19, 7.0.19]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[7.0.19, 7.0.19]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.19, 7.0.19]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.19, 7.0.19]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -88,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
