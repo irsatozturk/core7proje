@@ -1,3 +1,4 @@
+using core7proje.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace core7proje.Controllers;
@@ -5,10 +6,9 @@ namespace core7proje.Controllers;
 public class ArticlesController: Controller
 {
     public IActionResult Index(){
-        return View();
+        var Article = new ArticlesModel();
+        Article.Id = 1;
+        Article.Header = "deneme başlık";
+        return View(Article);
     }
-    public string Liste(){
-        return "Listsdasde isimli action çalıştı.";
-    }
-
 }
