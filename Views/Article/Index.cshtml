@@ -1,21 +1,6 @@
 @model ArticleModel;
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>başlık deneme</title>
-</head>
-<body>
-    <h2>Makaleler sayfasına hoşş geldiniz efendimizz</h2>
-
-modelden gelen data -> @Model.Id
-<br>
-modelden gelen data -> @Model.Header
+<h2>Makaleler </h2>
+<b>modelden gelen tek satır data</b> <br> ID= @Model.Id <br> BASLIK=  @Model.Header
 <br><br>
-<a href="../article/ArticleList">Liste sayfası</a>
-<br><br>
-    <a href="..\">Geri dön</a>
-</body>
-</html>
+<a href="../article/ArticleDataList">Liste sayfası</a>

@@ -14,7 +14,7 @@ public class ArticleController: Controller
         return View(Article);
     }
 
-    public IActionResult ArticleList(){
+    public IActionResult ArticleDataList(){
         var ArticleDataList = new List<ArticleModel>()
         {
             new ArticleModel() { Id=1, Header=" başlık1", Description="açıklama 1", Image="1.jpg" },

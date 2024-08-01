@@ -1,27 +1,20 @@
 @model List<ArticleModel>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Makale Listesi</h1>
-
-    <hr>
-    @foreach(var bilgi in Model)
-    {
-        <div id="makale_@bilgi.Id">
-            <h3>ID: @bilgi.Id 
-                <br>Başlık: @bilgi.Header
-                <br>Açıklama: @bilgi.Description</h3>
-            <img src="~/img/@bilgi.Image" height="150px" width="300px">
-            <hr>
+@foreach(var bilgi in Model)
+{
+    <div class="card mb-3" id="xx_@bilgi.Id">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/img/@bilgi.Image" class="img-fluid rounded-start" alt="">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">@bilgi.Header</h5>
+                    <p class="card-text">@bilgi.Description</p>
+                </div>
+            </div>
         </div>
-    }
-    <br>
-    <a href="../article">Geri Dön</a>
-</body>
-</html>
+    </div>
+}
+<br>
+<a href="../article">Geri Dön</a>
