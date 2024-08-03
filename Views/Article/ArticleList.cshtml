@@ -2,19 +2,9 @@
 
 @foreach(var bilgi in Model)
 {
-    <div class="card mb-3" id="xx_@bilgi.Id">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="~/img/@bilgi.Image" class="img-fluid rounded-start" alt="">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h5 class="card-title">@bilgi.Header</h5>
-                    <p class="card-text">@bilgi.Description</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    @await Html.PartialAsync("_ArticleCardTemplate", bilgi)
 }
-<br>
-<a href="../article">Geri Dön</a>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/ornek.css" class="rel">
+}

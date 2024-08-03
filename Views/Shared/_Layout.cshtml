@@ -4,23 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" class="rel">
+    @RenderSection("Styles", false)
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href="#">İRŞAT PROJE</a>
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a href="/home" class="nav-link">Anasayfa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/article" class="nav-link">Makaleler</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        @await Html.PartialAsync("_Menu")
     </header>
 
     <div class="container mb-3 mt-3">
@@ -28,5 +17,6 @@
             @RenderBody()
         </main>
     </div>
+    @RenderSection("Scripts", false)
 </body>
 </html>

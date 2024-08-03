@@ -1,6 +1,5 @@
 @model ArticleModel;
 
-<h2>Makaleler </h2>
-<b>modelden gelen tek satır data</b> <br> ID= @Model.Id <br> BASLIK=  @Model.Header
-<br><br>
-<a href="../article/ArticleDataList">Liste sayfası</a>
+@await Html.PartialAsync("_ArticleCardTemplate", @Model)
+
+<a href="../article/ArticleDataList">ArticleDataList</a>

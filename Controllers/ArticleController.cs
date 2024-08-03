@@ -9,8 +9,9 @@ public class ArticleController: Controller
     {
         var Article = new ArticleModel();
         Article.Id = 1;
-        Article.Header = "deneme başlık";
-        Article.Description = "açıklama mesajı örneği";
+        Article.Header = "tek data başlığı xx";
+        Article.Description = "tek data açıklaması";
+        Article.Image="1.jpg";
         return View(Article);
     }
 
